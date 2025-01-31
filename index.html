@@ -20,85 +20,196 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="header header-page">
-      <div class="container">
-        <ul class="nav-header-list">
-          <li class="nav-header-item">
-            <a class="nav-header-item-link" href="">Home</a>
-          </li>
-          <li class="nav-header-item">
-            <a class="nav-header-item-link" href="">Benefits</a>
-          </li>
-          <li class="nav-header-item">
-            <a class="nav-header-item-link" href="">Catalog</a>
-          </li>
-          <li class="nav-header-item">
-            <a class="nav-header-item-link" href="">About us</a>
-          </li>
-          <li class="nav-header-item">
-            <a class="nav-header-item-link" href="">Reviews</a>
-          </li>
-          <li class="nav-header-item">
-            <a class="nav-header-item-link" href="">Contact</a>
-          </li>
-        </ul>
-        <a class="logo-header" href="#">Furvana</a>
-        <ul class="header-icons-list">
-          <li class="header-icon">
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav-header-list">
+          <a href="#" class="nav-header-item-link">Home</a>
+          <a href="#" class="nav-header-item-link">Benefits</a>
+          <a href="#" class="nav-header-item-link">Catalog</a>
+          <a href="#" class="nav-header-item-link">About us</a>
+          <a href="#" class="nav-header-item-link">Reviews</a>
+          <a href="#" class="nav-header-item-link">Contact</a>
+        </nav>
+        <div class="logo-header">Furvana</div>
+        <div class="header-icons-list">
+          <div class="header-icon">
             <a href="">
-              <svg class="icon-header" width="24" height="25">
+              <svg class="icon-header" width="24" height="24">
                 <use href="./image/symbol-defs.svg#icon-searchbohdana"></use>
               </svg>
             </a>
-          </li>
-          <li class="header-icon">
+          </div>
+          <div class="header-icon">
             <a href="">
-              <svg class="icon-header" width="24" height="25">
+              <svg class="icon-header" width="24" height="24">
                 <use href="./image/symbol-defs.svg#icon-personbohdana"></use>
               </svg>
             </a>
-          </li>
-          <li class="header-icon">
+          </div>
+          <div class="header-icon">
             <a href="">
-              <svg class="icon-header-heart" width="24" height="25">
-                <use
-                  href="./image/symbol-defs.svg#icon-material-symbols-light_favorite-outline-rounded"
-                ></use>
+              <svg class="icon-header-heart" width="24" height="24">
+                <use href="./image/symbol-defs.svg#icon-rounded"></use>
               </svg>
             </a>
-          </li>
-          <li class="header-icon">
+          </div>
+          <div class="header-icon">
             <a href="">
-              <svg class="icon-header" width="24" height="25">
+              <svg class="icon-header" width="24" height="24">
                 <use href="./image/symbol-defs.svg#icon-bagbohdana"></use>
               </svg>
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </header>
+
     <!--          -->
     <section class="hero">
       <div class="container">
-        <img
-          class="hero-phot"
-          src="./image/photo1bohdana.png"
-          alt=""
-          width="644"
-          height="903"
-        />
-        <img
-          class="hero-photo"
-          src="./image/photo2bohdana.png"
-          alt=""
-          width="644"
-          height="903"
-        />
-        <h1 class="hero-title">Sustainable Fashion for a Conscious Future</h1>
+        <h1 class="hero-title">
+          Sustainable Fashion <br />
+          for a Conscious Future
+        </h1>
         <p class="hero-txt">
           We create stylish clothing with care for nature and your health.
         </p>
         <button class="hero-btn" type="button">View Collection</button>
+      </div>
+    </section>
+    <!-- Why Choose Us?            -->
+    <section class="why-choose-us">
+      <div class="container">
+        <h2 class="why-choose-us-title">Why Choose Us?</h2>
+        <ul class="why-choose-us-list">
+          <li class="why-choose-us-item">
+            <div class="container-icon">
+              <svg class="icon-why-choose-us" width="118" height="108">
+                <use href="./image/symbol-defs.svg#icon-Icon-planet"></use>
+              </svg>
+
+              <p class="why-choose-us-txt">Worldwide delivery</p>
+            </div>
+          </li>
+          <li class="why-choose-us-item">
+            <div class="container-icon">
+              <svg class="icon-why-choose-us" width="118" height="108">
+                <use href="./image/symbol-defs.svg#icon-Icon-lamp"></use>
+              </svg>
+
+              <p class="why-choose-us-txt">Style that inspires</p>
+            </div>
+          </li>
+          <li class="why-choose-us-item">
+            <div class="container-icon">
+              <svg class="icon-why-choose-us" width="118" height="108">
+                <use href="./image/symbol-defs.svg#icon-Icon-ship"></use>
+              </svg>
+              <p class="why-choose-us-txt">
+                Durability and quality you can trust
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--           card -->
+    <section class="catalog">
+      <div class="container">
+        <h2 class="catalog-title">Our Catalog</h2>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <img src="./image/photo1.jpg " alt="" />
+            <a class="icon-link" href="#">
+              <svg class="icon-catalog" width="22" height="20">
+                <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
+              </svg>
+            </a>
+            <h3 class="catalog-container-title">Faux fur coat</h3>
+            <div class="container-price-btn">
+              <p class="catalog-container-txt">$120</p>
+              <button class="catalog-btn" type="button">Add to a cart</button>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <img src="./image/photo2.jpg" alt="" />
+            <svg class="icon-catalog" width="22" height="20">
+              <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
+            </svg>
+            <h3 class="catalog-container-title">Faux fur hat</h3>
+            <div class="container-price-btn">
+              <p class="catalog-container-txt">$$80</p>
+              <button class="catalog-btn" type="button">Add to a cart</button>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <img src="./image/photo3.jpg" alt="" />
+            <svg class="icon-catalog" width="22" height="20">
+              <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
+            </svg>
+            <h3 class="catalog-container-title">Faux fur coat</h3>
+            <div class="container-price-btn">
+              <p class="catalog-container-txt">$140</p>
+              <button class="catalog-btn" type="button">Add to a cart</button>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <img src="./image/photo4.jpg" alt="" />
+            <svg class="icon-catalog" width="22" height="20">
+              <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
+            </svg>
+            <h3 class="catalog-container-title">Faux fur jacke</h3>
+            <div class="container-price-btn">
+              <p class="catalog-container-txt">$140</p>
+              <button class="catalog-btn" type="button">Add to a cart</button>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <img src="./image/photo5.jpg" alt="" />
+            <svg class="icon-catalog" width="22" height="20">
+              <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
+            </svg>
+            <h3 class="catalog-container-title">Faux fur coat</h3>
+            <div class="container-price-btn">
+              <p class="catalog-container-txt">$110</p>
+              <button class="catalog-btn" type="button">Add to a cart</button>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <img src="./image/photo6.jpg" alt="" />
+            <svg class="icon-catalog" width="22" height="20">
+              <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
+            </svg>
+            <h3 class="catalog-container-title">Jacket with faux fur hood</h3>
+            <div class="container-price-btn">
+              <p class="catalog-container-txt">$130</p>
+              <button class="catalog-btn" type="button">Add to a cart</button>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <img src="./image/photo7.jpg" alt="" />
+            <svg class="icon-catalog" width="22" height="20">
+              <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
+            </svg>
+            <h3 class="catalog-container-title">Faux fur coat</h3>
+            <div class="container-price-btn">
+              <p class="catalog-container-txt">$140</p>
+              <button class="catalog-btn" type="button">Add to a cart</button>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <img src="./image/photo8.jpg" alt="" />
+            <svg class="icon-catalog" width="22" height="20">
+              <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
+            </svg>
+            <h3 class="catalog-container-title">Faux fur coat</h3>
+            <div class="container-price-btn">
+              <p class="catalog-container-txt">$150</p>
+              <button class="catalog-btn" type="button">Add to a cart</button>
+            </div>
+          </li>
+        </ul>
+        <button class="catalog-btn-all" type="button">View All Products</button>
       </div>
     </section>
   </body>

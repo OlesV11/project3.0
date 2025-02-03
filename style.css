@@ -235,7 +235,6 @@ img {
   width: 156px;
   height: 56px;
   background-color: #4987ba;
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
@@ -266,4 +265,196 @@ img {
 
 .catalog-btn:hover {
   background-color: rgba(123, 187, 240, 100);
+}
+/* About Us         */
+
+.about-us {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.about-us-title {
+  font-weight: 400;
+  font-size: 36px;
+  color: #002438;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.container-photo {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 24px;
+}
+.about-us-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-us-list {
+  display: flex;
+  gap: 31px;
+  flex-direction: column;
+}
+
+.about-us-item {
+}
+.about-us-title-txt {
+  font-family: sans-serif;
+  font-size: 110px;
+  font-weight: 400;
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke: 1px #002438;
+}
+.about-us-txt {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #002438;
+  width: 421px;
+}
+.about-us-btn {
+  padding: 10px 32px;
+  min-width: 166px;
+  height: 56px;
+  background-color: #4987ba;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  border: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about-us-btn:hover,
+.about-us-btn:active {
+  background-color: rgba(123, 187, 240, 100);
+}
+
+/* Customer Reviews              */
+.customer-reviews {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customer-reviews-title {
+  font-weight: 400;
+  font-size: 36px;
+  color: #002438;
+  text-align: center;
+  margin-bottom: 92px;
+}
+.review-list {
+  /* border: 1px solid #002438;
+  width: 310px; */
+}
+.review-item {
+  width: calc((100% - 72px) / 4);
+  margin-top: -50px;
+}
+.review-photo {
+  display: inline-flex;
+  border-radius: 100%;
+
+  transform: translate(110px, 40px);
+}
+.review-container-item {
+  border: 1px solid #002438;
+  width: 310px;
+}
+.review-rating {
+  margin-top: 52px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.review-rating-icon {
+}
+.review-rating-icon-last {
+  fill: transparent;
+  stroke: #002438;
+}
+.review-info-container {
+}
+.review-card-title {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.review-card-txt {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.review-card-icon {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.review-card-txt-main {
+  font-weight: 400;
+  font-size: 18px;
+  color: #002438;
+  width: 262px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.main-cont {
+  display: flex;
+  /* width: calc((100% - 72px) / 4); */
+}
+
+/* Загальні стилі для картки */
+.review-card {
+  padding: 24px;
+  border: 1px solid #002438;
+  width: 310px;
+  height: 458px;
+  text-align: center; /* Центрування тексту */
+}
+
+/* Фото користувача */
+.user-photo {
+  display: flex;
+  transform: translate(90px, -68px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Кругле фото */
+}
+
+/* Рейтинг */
+.review-rating {
+  margin-bottom: 10px; /* Відступ знизу */
+}
+
+/* Інформація про користувача */
+.user-info {
+  margin-bottom: 15px;
+}
+
+.user-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #888; /* Сірий текст */
+}
+
+/* Текст відгуку */
+.review-text {
+  font-size: 16px;
+  font-style: italic;
+  color: #333; /* Темно-сірий текст */
+  line-height: 1.5;
+  text-align: center; /* Вирівнювання тексту за лівим краєм */
+  margin-top: 10px;
 }

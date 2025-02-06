@@ -660,6 +660,14 @@ img {
   font-size: 18px;
   color: #7f8487;
   margin-right: 24px;
+  background-color: transparent;
+}
+
+.discount-input:-webkit-autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  box-shadow: 0 0 0px 1000px white inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 .discount-btn {
@@ -689,4 +697,91 @@ img {
   display: flex;
   gap: 24px;
   justify-content: space-between;
+}
+/* footer         */
+
+.footer {
+  padding: 48px 0;
+  background-color: #a8cbff;
+}
+.footer-logo {
+  display: block;
+  font-weight: 400;
+  font-size: 28px;
+  color: #002438;
+  margin-bottom: 32px;
+}
+.footer-list {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-item {
+}
+.footer-inf {
+  font-weight: 600;
+  font-size: 18px;
+  color: #002438;
+}
+.footer-loca {
+  font-weight: 400;
+  font-size: 18px;
+  color: #002438;
+}
+.footer-tel {
+  font-weight: 400;
+  font-size: 18px;
+  color: #002438;
+}
+.footer-email {
+  font-weight: 400;
+  font-size: 18px;
+  color: #002438;
+}
+.footer-soc {
+  font-weight: 600;
+  font-size: 18px;
+  color: #002438;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.footer-link-icon {
+  display: flex;
+  gap: 24px;
+}
+.footer-icon {
+}
+.footer-nav {
+}
+.footer-nav-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+.footer-nav-item {
+}
+.footer-nav-item-link {
+  font-weight: 400;
+  font-size: 18px;
+  color: #002438;
+}
+.footer-photo {
+  display: flex;
+}
+.footer-container {
+}
+.footer-cont-main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.blure-txt-footer {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 170px;
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 1px #002438;
+  top: 25%;
+  right: 135px;
 }

@@ -31,6 +31,7 @@ img {
   margin: 0 auto;
 }
 
+/* #region Header */
 .header {
   display: flex;
   background-color: #fff;
@@ -99,9 +100,10 @@ img {
   fill: #000;
   stroke: transparent;
 }
+/* #endregion */
 
 /* Hero             */
-
+/* #region */
 .hero {
   display: block;
   padding-bottom: 377px;
@@ -155,8 +157,9 @@ img {
   cursor: pointer;
   text-align: center;
 }
+/* #endregion */
 /*  Why Choose Us?             */
-
+/* #region */
 .why-choose-us {
   padding: 120px 0;
 }
@@ -194,8 +197,9 @@ img {
 .why-choose-us-item {
   width: calc((100% - 72px) / 3);
 }
+/* #endregion */
 /* catalog            */
-
+/* #region */
 .catalog {
   padding: 120px 0;
 }
@@ -279,9 +283,10 @@ img {
 .catalog-btn-all:focus {
   background-color: rgba(123, 187, 240, 100);
 }
+/* #endregion */
 
 /* About Us         */
-
+/* #region */
 .about-us {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -347,8 +352,9 @@ img {
 .about-us-btn:active {
   background-color: rgba(123, 187, 240, 100);
 }
-
+/* #endregion */
 /* Customer Reviews              */
+/* #region */
 .customer-reviews {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -439,9 +445,9 @@ img {
 .review-btn-all:focus {
   background-color: rgba(123, 187, 240, 100);
 }
-
+/* #endregion */
 /* contact-us                */
-
+/* #region */
 .contact-us {
   padding-top: 120px;
   padding-bottom: 64px;
@@ -461,7 +467,6 @@ img {
 .contact-us-form {
   display: flex;
   flex-direction: column;
-  /* gap: 32px; */
 }
 .contact-us-form:last-child {
   margin-top: 24px;
@@ -525,9 +530,7 @@ img {
 }
 .contact-us-list {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
-  /* gap: 28px; */
 }
 .contact-us-item {
   gap: 16px;
@@ -588,6 +591,7 @@ img {
   width: 533px;
   height: 410px;
 }
+/* #endregion */
 /*  */
 .background-section {
   padding: 48px 0;
@@ -601,6 +605,7 @@ img {
   padding: 48px 0;
 }
 /* F.A.Q.            */
+/* #region */
 .faq {
   padding: 64px;
   background-color: #ecf4ff;
@@ -632,7 +637,9 @@ img {
   color: #002438;
   width: 644px;
 }
+/* #endregion */
 /*  Sign up to get a discount   */
+/* #region */
 .discount {
   padding: 120px 0;
 }
@@ -712,7 +719,9 @@ img {
   gap: 24px;
   justify-content: space-between;
 }
+/* #endregion */
 /* footer         */
+/* #region */
 
 .footer {
   padding: 48px 0;
@@ -819,3 +828,4 @@ img {
   top: 25%;
   right: 135px;
 }
+/* #endregion */

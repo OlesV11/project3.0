@@ -17,7 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -77,6 +77,8 @@
         <button class="hero-btn" type="button">View Collection</button>
       </div>
     </section>
+    <!-- bg -->
+    <section class="background-section"></section>
     <!-- Why Choose Us?            -->
     <section class="why-choose-us">
       <div class="container">
@@ -129,6 +131,7 @@
             <div class="container-price-btn">
               <p class="catalog-container-txt">$120</p>
               <button class="catalog-btn" type="button">Add to a cart</button>
+              <button class="catalog-btn-mobile" type="button">Buy</button>
             </div>
           </li>
           <li class="catalog-item">
@@ -140,6 +143,7 @@
             <div class="container-price-btn">
               <p class="catalog-container-txt">$$80</p>
               <button class="catalog-btn" type="button">Add to a cart</button>
+              <button class="catalog-btn-mobile" type="button">Buy</button>
             </div>
           </li>
           <li class="catalog-item">
@@ -151,6 +155,7 @@
             <div class="container-price-btn">
               <p class="catalog-container-txt">$140</p>
               <button class="catalog-btn" type="button">Add to a cart</button>
+              <button class="catalog-btn-mobile" type="button">Buy</button>
             </div>
           </li>
           <li class="catalog-item">
@@ -162,6 +167,7 @@
             <div class="container-price-btn">
               <p class="catalog-container-txt">$140</p>
               <button class="catalog-btn" type="button">Add to a cart</button>
+              <button class="catalog-btn-mobile" type="button">Buy</button>
             </div>
           </li>
           <li class="catalog-item">
@@ -173,6 +179,7 @@
             <div class="container-price-btn">
               <p class="catalog-container-txt">$110</p>
               <button class="catalog-btn" type="button">Add to a cart</button>
+              <button class="catalog-btn-mobile" type="button">Buy</button>
             </div>
           </li>
           <li class="catalog-item">
@@ -180,10 +187,11 @@
             <svg class="icon-catalog" width="22" height="20">
               <use href="./image/symbol-defs.svg#icon-heart-icon "></use>
             </svg>
-            <h3 class="catalog-container-title">Jacket with faux fur hood</h3>
+            <h3 class="catalog-container-title">Jacket with faux fur</h3>
             <div class="container-price-btn">
               <p class="catalog-container-txt">$130</p>
               <button class="catalog-btn" type="button">Add to a cart</button>
+              <button class="catalog-btn-mobile" type="button">Buy</button>
             </div>
           </li>
           <li class="catalog-item">
@@ -195,6 +203,7 @@
             <div class="container-price-btn">
               <p class="catalog-container-txt">$140</p>
               <button class="catalog-btn" type="button">Add to a cart</button>
+              <button class="catalog-btn-mobile" type="button">Buy</button>
             </div>
           </li>
           <li class="catalog-item">
@@ -206,6 +215,7 @@
             <div class="container-price-btn">
               <p class="catalog-container-txt">$150</p>
               <button class="catalog-btn" type="button">Add to a cart</button>
+              <button class="catalog-btn-mobile" type="button">Buy</button>
             </div>
           </li>
         </ul>
@@ -218,8 +228,21 @@
       <div class="container">
         <h2 class="about-us-title">About Us</h2>
         <div class="about-us-container">
+          <div class="photo-flex">
+            <div class="column large">
+              <img src="./image/photo-about-1.jpg" alt="Image 1" />
+            </div>
+            <div class="column small">
+              <img src="./image/photo-about-2.jpg" alt="Image 2" />
+              <img src="./image/photo-about-3.jpg" alt="Image 3" />
+            </div>
+          </div>
+
           <ul class="about-us-list">
             <li><p class="about-us-title-txt">Who Are We?</p></li>
+            <li>
+              <p class="about-us-title-txt-bott">Furvan</p>
+            </li>
             <li class="about-us-item">
               <p class="about-us-txt">
                 Welcome to Furvana, where elegance meets sustainability. We

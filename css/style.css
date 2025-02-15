@@ -1,0 +1,327 @@
+.container {
+  max-width: 361px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 100%;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.header {
+  display: flex;
+  background-color: transparent;
+}
+.nav-header-list {
+  display: none;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-header-item-link {
+  display: flex;
+  padding: 32px 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo-header {
+  font-family: "Hind Guntur", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.91;
+  text-align: center;
+  color: #fff;
+}
+.header-icons-list {
+  display: flex;
+  gap: 16px;
+}
+.header-icon {
+  fill: none;
+  stroke: #000;
+}
+.icon-header-heart {
+  fill: #000;
+  stroke: transparent;
+}
+/* HERO */
+.hero {
+  background-image: url(../image/image-bg-boh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 361px;
+  padding-bottom: 263px;
+  padding-top: 91px;
+  margin: 0 auto;
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.42;
+  text-align: center;
+  color: #002438;
+  max-width: 360px;
+}
+.hero-txt {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #002438;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.hero-btn {
+  display: block;
+  max-width: 177px;
+  height: 40px;
+  padding: 9px 22px;
+  background-color: #4987ba;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto;
+  border: transparent;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-btn:focus,
+.hero-btn:active {
+  background-color: rgba(41, 90, 131, 100);
+}
+/* bg section */
+.background-section {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.4;
+  padding: 24px 0;
+  background-image: url(../image/Furvana.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  margin: 15px 0;
+}
+/* Why Choose Us */
+.why-choose-us {
+  padding: 48px 0;
+}
+.why-choose-us-title {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.icon-why-choose-us {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+.container-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-choose-us-txt {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #002438;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.why-choose-us-txt:last-child {
+  margin-bottom: 0;
+}
+/* Catalog */
+
+.catalog {
+  padding: 48px 0;
+}
+.catalog-title {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.icon-catalog {
+  fill: #fff;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+.container-price-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.catalog-list {
+  display: flex;
+  column-gap: 8px;
+  row-gap: 16px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.catalog-item {
+  width: calc((100% - 8px) / 2);
+  position: relative;
+}
+.catalog-container-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.catalog-container-txt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+}
+.catalog-btn {
+  display: none;
+}
+.catalog-btn-mobile {
+  display: block;
+  padding: 4px 16px;
+  max-width: 65px;
+  height: 30px;
+  background-color: #4987ba;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.catalog-btn-mobile:focus,
+.catalog-btn-mobile:active {
+  background-color: rgba(123, 187, 240, 100);
+}
+.catalog-btn-all {
+  display: none;
+}
+/*  About Us          */
+.about-us {
+  padding: 48px 0;
+}
+.about-us-container {
+  position: relative;
+}
+.about-us-title {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 16px;
+}
+
+.photo-flex {
+  display: flex;
+  gap: 8px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.large {
+  flex: 2;
+}
+
+.small {
+  flex: 2;
+}
+
+.column img {
+  width: 100%;
+  object-fit: cover;
+}
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.about-us-title-txt {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 1px #002438;
+  top: 0;
+}
+.about-us-txt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+  max-width: 361px;
+  margin-bottom: 16px;
+}
+.about-us-title-txt-bott {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 1px #002438;
+  top: 201px;
+}
+.container-photo {
+  display: none;
+}
+.about-us-btn {
+  display: block;
+  padding: 10px 32px;
+  width: 156px;
+  height: 40px;
+  background-color: #4987ba;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border: transparent;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

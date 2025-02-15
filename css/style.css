@@ -185,8 +185,8 @@ img {
 .icon-catalog {
   fill: #fff;
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 8px;
+  right: 8px;
 }
 .container-price-btn {
   display: flex;
@@ -324,4 +324,242 @@ img {
   border: transparent;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*  Customer Reviews */
+.customer-reviews {
+  padding: 48px 0;
+  padding-bottom: 16px;
+}
+.customer-reviews-title {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 48px;
+}
+.image-review-person {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -34px;
+  width: 56px;
+}
+.container-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.review-card-list {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 8px;
+  flex-wrap: wrap;
+}
+.review-card-item {
+  width: calc((100% - 8px) / 2);
+  border: 1px solid #002438;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 16px;
+  position: relative;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin-top: 60px;
+}
+.review-card-icon-another {
+  fill: transparent;
+  stroke: #002438;
+}
+.card-user-name {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 8px;
+}
+.review-date {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.review-card-smbl {
+  display: block;
+  margin: 0 auto;
+}
+.review-card-txt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+  margin-top: 16px;
+  max-width: 161px;
+}
+.review-btn-all {
+  padding: 9px 32px;
+  min-width: 207px;
+  height: 40px;
+  background-color: #4987ba;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  border: transparent;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.review-btn-all:hover,
+.review-btn-all:focus {
+  background-color: rgba(123, 187, 240, 100);
+}
+.contact-us-title-mobile {
+  margin-top: 48px;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #002438;
+}
+/* contact-us           */
+.contact-us {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  background-color: #ecf4ff;
+}
+.contact-us-title {
+  display: none;
+}
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us-input-name {
+  border: 1px solid #002438;
+  padding: 16px;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  margin-bottom: 32px;
+}
+.contact-us-input-name::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: #7f8487;
+}
+.contact-us-input-email {
+  border: 1px solid #002438;
+  padding: 16px;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  margin-bottom: 32px;
+}
+.contact-us-textarea {
+  border: 1px solid #002438;
+  padding: 16px;
+  max-width: 361px;
+  height: 130px;
+  resize: none;
+  background-color: transparent;
+  margin-bottom: 24px;
+}
+.contact-us-textarea::-webkit-scrollbar {
+  color: #fff;
+}
+.contact-us-bnt {
+  padding: 10px 32px;
+  width: 124px;
+  height: 40px;
+  background-color: #4987ba;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border: transparent;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-us-bnt:active,
+.contact-us-bnt:focus {
+  background-color: rgba(123, 187, 240, 100);
+}
+.contact-us-list {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us-item {
+  gap: 16px;
+}
+.contact-us-txt-email {
+  font-weight: 600;
+  font-size: 18px;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.contact-us-link-email {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+  margin-bottom: 24px;
+}
+.contact-us-txt-number {
+  font-weight: 600;
+  font-size: 18px;
+  color: #002438;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.contact-us-link-number {
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+  display: block;
+  margin-bottom: 24px;
+}
+.contact-us-txt-follow {
+  font-weight: 600;
+  font-size: 18px;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.contact-us-link-icon {
+  display: inline-flex;
+  margin-bottom: 24px;
+  gap: 24px;
+}
+.contact-us-txt-visit {
+  font-weight: 600;
+  font-size: 18px;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.contact-us-txt-addr {
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+  margin-bottom: 32px;
+}
+.contact-us-container-info-img {
+  display: flex;
+  margin-top: 32px;
+}
+.contact-us-img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.maps {
+  display: flex;
 }

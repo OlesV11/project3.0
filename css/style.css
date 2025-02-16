@@ -85,7 +85,7 @@ img {
 }
 /* HERO */
 .hero {
-  background-image: url(../image/image-bg-boh.jpg);
+  background-image: url(../image/image-bg-2x.png);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 361px;
@@ -147,12 +147,16 @@ img {
   font-size: 22px;
   text-align: center;
   color: #002438;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 .icon-why-choose-us {
   display: flex;
   width: 100px;
   height: 100px;
+  margin-top: 19px;
+}
+.icon-why-choose-us:last-child {
+  margin: 0;
 }
 .container-icon {
   display: flex;
@@ -497,6 +501,7 @@ img {
 .contact-us-list {
   display: flex;
   flex-direction: column;
+  width: 64%;
 }
 .contact-us-item {
   gap: 16px;
@@ -549,11 +554,11 @@ img {
   font-weight: 400;
   font-size: 16px;
   color: #002438;
-  margin-bottom: 32px;
 }
 .contact-us-container-info-img {
   display: flex;
-  margin-top: 32px;
+  padding: 32px 0;
+  justify-content: space-between;
 }
 .contact-us-img-container {
   display: flex;
@@ -566,7 +571,7 @@ img {
 /* Bg sec */
 
 .background-section {
-  display: none;
+  display: flex;
 }
 
 /* Fag */

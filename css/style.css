@@ -140,7 +140,7 @@ img {
 }
 /* Why Choose Us */
 .why-choose-us {
-  padding: 48px 0;
+  margin-top: 48px;
 }
 .why-choose-us-title {
   font-weight: 400;
@@ -245,7 +245,7 @@ img {
 }
 /*  About Us          */
 .about-us {
-  padding: 48px 0;
+  /* padding: 48px 0; */
 }
 .about-us-container {
   position: relative;
@@ -432,7 +432,7 @@ img {
 }
 /* contact-us           */
 .contact-us {
-  padding-top: 16px;
+  padding-top: 32px;
   padding-bottom: 32px;
   background-color: #ecf4ff;
 }

@@ -48,40 +48,50 @@ img {
 .nav-header-list {
   display: none;
 }
+.header-icons-list {
+  display: none;
+}
 .header-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+
+  max-width: 544px;
+  padding: 0;
+  margin: 0 auto;
 }
-.nav-header-item-link {
+
+.header-icons-list-mob {
   display: flex;
-  padding: 32px 0;
-  font-weight: 400;
-  font-size: 18px;
-  color: #000;
-  text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
 }
-.logo-header {
+.header-icon-mob {
+  fill: none;
+  stroke: #ffffff;
+}
+.icon-header-mob {
+}
+.logo-header-mob {
   font-family: "Hind Guntur", sans-serif;
   font-weight: 300;
   font-size: 24px;
-  line-height: 1.91;
+  line-height: 1.91667;
   text-align: center;
   color: #fff;
 }
-.header-icons-list {
-  display: flex;
-  gap: 16px;
-}
-.header-icon {
-  fill: none;
-  stroke: #000;
-}
-.icon-header-heart {
-  fill: #000;
+.icon-header-heart-mob {
+  fill: #fff;
   stroke: transparent;
+  display: flex;
+  align-items: center;
+}
+.header-icon-mob-container {
+  display: flex;
+  gap: 8px;
+  margin-right: 78px;
+}
+.header-icon-mob-container-bott {
+  display: flex;
+  gap: 8px;
+  margin-left: 78px;
 }
 /* HERO */
 .hero {

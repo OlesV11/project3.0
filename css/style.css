@@ -563,3 +563,140 @@ img {
 .maps {
   display: flex;
 }
+/* Bg sec */
+
+.background-section {
+  display: none;
+}
+
+/* Fag */
+.faq-bckgrnd {
+  padding-top: 48px;
+  padding-bottom: 16px;
+  margin: 0 auto;
+}
+.faq-title {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #002438;
+  color: #002438;
+  text-align: center;
+}
+/*  */
+.faq {
+  padding: 32px 0;
+  background-color: #ecf4ff;
+}
+/* .faq-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 48px;
+} */
+.faq-txt-top,
+.faq-txt-bottom {
+  display: none;
+}
+.faq-txt-top-mob {
+  font-weight: 600;
+  font-size: 18px;
+  color: #002438;
+  min-width: 361px;
+  margin-bottom: 8px;
+}
+.faq-txt-bottom-mob {
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+  max-width: 361px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 24px;
+}
+.faq-txt-bottom-mob-last {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #002438;
+  max-width: 361px;
+}
+.faq-button {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 32px;
+  width: 132px;
+  height: 40px;
+  background-color: #4987ba;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.faq-button:active,
+.faq-button:focus {
+  background-color: rgba(123, 187, 240, 100);
+}
+/* Sign up to get a discount */
+
+.discount {
+  padding: 48px 0;
+}
+.discount-title {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 16px;
+}
+.discount-cont-form {
+  border: 1px solid #002438;
+  padding: 32px 16px;
+  max-width: 361px;
+  max-height: 311px;
+  margin-top: 24px;
+}
+.discount-txt {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #002438;
+  margin-bottom: 24px;
+  max-width: 329px;
+}
+.discount-form {
+  display: flex;
+  flex-direction: column;
+}
+.discount-input {
+  border: 1px solid #002438;
+  padding: 16px;
+  max-width: 329px;
+  max-height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7f8487;
+  background-color: transparent;
+  margin-bottom: 24px;
+}
+.discount-input:-webkit-autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  box-shadow: 0 0 0px 1000px white inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+.discount-btn {
+  padding: 10px 32px;
+  max-width: 329px;
+  height: 40px;
+  background-color: #4987ba;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
